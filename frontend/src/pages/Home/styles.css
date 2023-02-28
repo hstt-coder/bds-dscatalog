@@ -1,0 +1,143 @@
+.home-container {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.home-card {
+  display: flex;
+  flex-flow: column-reverse;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+  border-radius: 20px;
+}
+
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 60px;
+}
+
+.home-content-container h1 {
+  font-size: 1em;
+  width: 260px;
+}
+
+
+.home-content-container p {
+  width: 250px;
+  font-size: .6em;
+  color: #9e9e9e;
+  margin: 15px 0 20px;
+}
+
+.home-image-container {
+  padding: 50px 15px;
+}
+
+.home-image-container svg {
+  width: 100%;
+  height: auto;
+}
+
+.button-container {
+  width: 260px;
+  height: 50px;
+}
+
+
+@media (min-width: 576px) {
+  .home-container {
+    padding: 15px;
+    font-size: 40px;
+  }
+
+  .home-content-container h1 {
+    width: 506px;
+  }
+
+  .home-content-container p {
+    width: 506px;
+  }
+
+  .button-container {
+    width: 506px;
+  }
+
+  .home-image-container svg {
+    width: 506px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-image-container {
+    padding: 100px 20px;
+  }
+
+  .home-content-container {
+    padding: 20px 20px 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    padding: 40px;
+  }
+
+  .home-container {
+    font-size: 55px;
+  }
+
+  .home-image-container {
+    padding: 125px 20px;
+  }
+
+  .home-content-container {
+    padding: 20px 20px 150px;
+  }
+
+  .home-content-container h1 {
+    width: 700px;
+  }
+
+  .home-content-container p {
+    margin: 26px 0 47px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    padding: 40px 25px;
+  }
+  
+  .home-card {
+    height: 80vh;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .home-container {
+    font-size: 45px;
+  }
+
+  .home-content-container {
+    padding: 40px 0 40px 40px;
+    width: 60%;
+    align-items: flex-start;
+    text-align: left;
+    align-content: space-around;
+    flex-flow: wrap;
+
+  }
+
+  .button-container {
+    width: 700px;
+  }
+  .home-image-container svg {
+    width: 100%;
+  }
+}
