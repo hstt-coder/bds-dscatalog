@@ -40,12 +40,6 @@
   height: auto;
 }
 
-.button-container {
-  width: 260px;
-  height: 50px;
-}
-
-
 @media (min-width: 576px) {
   .home-container {
     padding: 15px;
@@ -57,10 +51,6 @@
   }
 
   .home-content-container p {
-    width: 506px;
-  }
-
-  .button-container {
     width: 506px;
   }
 
@@ -111,7 +101,7 @@
   .home-container {
     padding: 40px;
   }
-  
+
   .home-card {
     height: 80vh;
     flex-direction: row;
@@ -127,14 +117,10 @@
     width: 60%;
     align-items: flex-start;
     text-align: left;
-    align-content: space-around;
-    flex-flow: wrap;
-
+    justify-content: space-around;
+    flex-flow: column wrap;
   }
 
-  .button-container {
-    width: 700px;
-  }
   .home-image-container svg {
     width: 100%;
   }
