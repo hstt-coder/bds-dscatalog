@@ -11,6 +11,7 @@
   justify-content: space-between;
 }
 
+
 .main-menu a {
   color: rgba(255, 255, 255, .5);
 }
@@ -29,8 +30,8 @@
   min-height: 70px;
 }
 
-.collapse ul li  {
+/* .collapse ul li  {
   padding: 10px;
   width: 100%;
   transition: all ease .8s;
-}
+} */
