@@ -7,10 +7,13 @@
 .main-menu {
   display: flex;
   font-size: 18px;
-  width: 380px;
-  justify-content: space-between;
+  /* width: 380px;
+  justify-content: space-between; */
 }
 
+.main-menu li {
+  padding: 12px 24px;
+}
 
 .main-menu a {
   color: rgba(255, 255, 255, .5);

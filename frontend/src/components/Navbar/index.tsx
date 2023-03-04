@@ -23,7 +23,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
-          <ul className="navbar-nav offset-md-3 main-menu">
+          <ul className="navbar-nav mx-auto main-menu">
             <li>
               <NavLink to="/" activeClassName="active" exact>
                 HOME
