@@ -1,4 +1,5 @@
 import ProductCard from 'components/ProductCard';
+import { Link } from 'react-router-dom';
 import { Product } from 'types/product';
 import './styles.css';
 
@@ -28,28 +29,44 @@ const Catalog = () => {
     <div className="my-4 container">
       <div className="row">
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+          <Link to="/products/1">
+            <ProductCard product={product} />
+          </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+          <Link to="/products/2">
+            <ProductCard product={product} />
+          </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+          <Link to="/products/3">
+            <ProductCard product={product} />
+          </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+          <Link to="/products/4">
+            <ProductCard product={product} />
+          </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+          <Link to="/products/5">
+            <ProductCard product={product} />
+          </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+          <Link to="/products/6">
+            <ProductCard product={product} />
+          </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+        <Link to="/products/7">
+            <ProductCard product={product} />
+          </Link>
         </div>
         <div className="col-sm-6 col-lg-4 col-xl-3">
-          <ProductCard product={product} />
+        <Link to="/products/8">
+            <ProductCard product={product} />
+          </Link>
         </div>
       </div>
     </div>
