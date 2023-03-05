@@ -13,7 +13,7 @@ import './styles.css';
 
 const Catalog = () => {
   const [page, setPage] = useState<SpringPage<Product>>();
-  const [isLoad, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const params: AxiosParams = {
@@ -42,12 +42,12 @@ const Catalog = () => {
         <h1>Catálogo de Produtos</h1>
       </div>
       <div className="row">
-        {isLoad ? (
+        {isLoading ? (
           <CardLoader/>
         ) : (
           page?.content.map((product) => (
             <div className="col-sm-6 col-lg-4 col-xl-3" key={product.id}>
-              <Link to={`/products/${product.id}`}>
+              <Link to={`/products/1`}>
                 <ProductCard product={product} />
               </Link>
             </div>
